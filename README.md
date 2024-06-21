@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: do-the-thing.sh
-      - uses: gregmoy/set-cron-schedule-action@v2
+      - uses: gregmoy/set-cron-schedule-action@main
         with:
           token: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
           cron: |
