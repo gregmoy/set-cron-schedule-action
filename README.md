@@ -2,7 +2,7 @@
 
 > Updates the current GitHub Action workflow's cron trigger based on a list of cron expressions
 
-[![Build Status](https://github.com/gr2m/set-cron-schedule-action/workflows/Test/badge.svg)](https://github.com/gr2m/set-cron-schedule-action/actions)
+[![Build Status](https://github.com/gregmoy/set-cron-schedule-action/workflows/Test/badge.svg)](https://github.com/gregmoy/set-cron-schedule-action/actions)
 
 ## Usage
 
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: do-the-thing.sh
-      - uses: gr2m/set-cron-schedule-action@v2
+      - uses: gregmoy/set-cron-schedule-action@v2
         with:
           token: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
           cron: |

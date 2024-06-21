@@ -1,4 +1,5 @@
 .nyc_output
+.tap
 dist
 node_modules
 coverage

@@ -17,5 +17,5 @@ inputs:
     description: 'Commit message. You can use $WORKFLOW_NAME and $CRON_SCHEDULE placeholders. Defaults to "ci($WORKFLOW_NAME): update cron schedule: $CRON_EXPRESSIONS"'
     required: false
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
